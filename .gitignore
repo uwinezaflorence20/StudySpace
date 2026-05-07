@@ -1,0 +1,29 @@
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+build/
+dist/
+.npm/
+
+# Environment files — .env.example is intentionally NOT listed here
+.env
+
+# Arduino / Firmware
+firmware/**/*.hex
+firmware/**/*.elf
+firmware/**/build/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
