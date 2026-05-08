@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRef } from 'react';
 
 function getScoreMeta(score) {
   if (score == null)  return { color: 'var(--muted)',   label: 'No data yet' };
@@ -6,7 +7,7 @@ function getScoreMeta(score) {
   if (score >= 50)    return { color: 'var(--yellow)',  label: 'Moderate conditions' };
   return               { color: 'var(--red)',    label: 'Poor conditions' };
 }
-
+// yyf
 const STYLES = `
   .cs-wrap {
     background: var(--surface);
